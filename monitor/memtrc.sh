@@ -3,7 +3,7 @@
 #####################################################################
 #                                                                   #
 # Author      :  AspireCSL Labs                                     #
-# Description :  A simple imemory monitor script.                   #
+# Description :  A simple memory monitor script.                    #
 #                This script logs the memory usage of a server and  # 
 #                the processes with the largest memory usage. This  #
 #                output is refreshed periodically.                  #
