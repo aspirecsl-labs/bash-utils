@@ -7,4 +7,10 @@ Source (dot) these files in a script to use these functions.
 This script contains some commonly used array functions
 - arrayContainsElement: function to check if an array contains an element
   - returns zero if the array has the element or 1 if it doesn't
-  - Usage: arrayContainsElement <element> <array>; if [ $? -eq 0 ]; then echo PRESENT; else echo NOT PRESENT; fi
+  - Usage: arrayContainsElement <element> <array>
+- replaceInAllInArray: function to replace a string in all the elements of an array
+  - returns 1 if the function was invoked with incorrect number of arguments, or 0 if it completes normally
+  - Usage: replaceInAllInArray <original_string> <replacement_string> <array>
+- removeInAllInArray: function to remove a string from all the elements of an array
+  - returns 1 if the function was invoked with incorrect number of arguments, or 0 if it completes normally
+  - Usage: removeInAllInArray <string_to_remove> <array>
